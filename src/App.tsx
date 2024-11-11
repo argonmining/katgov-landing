@@ -1,9 +1,9 @@
 import React from 'react';
-import KatPoolLanding from './pages/KatPoolLanding';
+import KatGovLanding from './pages/KatGovLanding';
 
 const App: React.FC = () => (
   <div className="font-sans text-text">
-    <KatPoolLanding />
+    <KatGovLanding />
   </div>
 );
 
