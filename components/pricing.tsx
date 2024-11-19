@@ -51,14 +51,14 @@ export default function Pricing() {
             <div className="flex flex-col justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-2 md:order-none md:text-center mt-6 md:mt-0">
               <div className="font-hkgrotesk text-lg font-bold text-indigo-500 mb-0.5">Community</div>
               <div>
-                <span className="text-xl font-semibold">$</span><span className="text-2xl font-semibold">{annual ? '80' : '100'}</span><span className="text-sm text-slate-500 font-medium">/mo</span>
+                <span className="text-xl font-semibold">$</span><span className="text-2xl font-semibold">{annual ? '100' : '125'}</span><span className="text-sm text-slate-500 font-medium">/mo</span>
               </div>
             </div>
             {/* Team price */}
             <div className="flex flex-col justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-3 md:order-none md:text-center mt-6 md:mt-0">
               <div className="font-hkgrotesk text-lg font-bold text-indigo-500 mb-0.5">Organization</div>
               <div>
-                <span className="text-xl font-semibold">$</span><span className="text-2xl font-semibold">{annual ? '120' : '150'}</span><span className="text-sm text-slate-500 font-medium">/mo</span>
+                <span className="text-xl font-semibold">$</span><span className="text-2xl font-semibold">{annual ? 'Custom' : 'Custom'}</span><span className="text-sm text-slate-500 font-medium">/mo</span>
               </div>
             </div>
             {/* Usage label */}
@@ -161,6 +161,42 @@ export default function Pricing() {
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-3 md:order-none">
               <div className="md:hidden text-slate-200">Custom Framework</div>
+              <div className="text-sm font-medium text-slate-200 text-center">
+                <svg className="inline-flex fill-emerald-400" width="12" height="9" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
+                    fill="#34D399"
+                    fillRule="nonzero"
+                  />
+                </svg>
+              </div>
+            </div>
+            {/* Whitelabel Branding */}
+            <div className="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-800 md:col-span-3">
+              <div className="text-slate-200">Whitelabel Branding</div>
+            </div>
+            <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-1 md:order-none">
+              <div className="md:hidden text-slate-200">Whitelabel Branding</div>
+              <div className="text-sm font-medium text-slate-200 text-center">
+                <svg className="inline-flex fill-emerald-400" width="12" height="9" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
+                    fill="#34D399"
+                    fillRule="nonzero"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-2 md:order-none">
+              <div className="md:hidden text-slate-200">Whitelabel Branding</div>
+              <div className="text-sm font-medium text-slate-200 text-center">
+              <svg className="inline-flex fill-slate-500" width="14" height="2" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14 0v2H0V0z" fillRule="evenodd" />
+                </svg>
+              </div>
+            </div>
+            <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-3 md:order-none">
+              <div className="md:hidden text-slate-200">Whitelabel Branding</div>
               <div className="text-sm font-medium text-slate-200 text-center">
                 <svg className="inline-flex fill-emerald-400" width="12" height="9" xmlns="http://www.w3.org/2000/svg">
                   <path
