@@ -116,7 +116,7 @@ export default function Pricing() {
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-2 md:order-none">
               <div className="md:hidden text-slate-200">Treasury Wallets</div>
-              <div className="text-sm font-medium text-slate-200 text-center">5</div>
+              <div className="text-sm font-medium text-slate-200 text-center">2</div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-3 md:order-none">
               <div className="md:hidden text-slate-200">Active Users</div>
