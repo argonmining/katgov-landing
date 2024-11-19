@@ -1,7 +1,4 @@
-export const metadata = {
-  title: 'Sign Up - Kat Gov',
-  description: 'Test out Kat Gov for your community',
-}
+"use client";
 
 import Image from 'next/image'
 import Avatar01 from '@/public/images/avatar-01.jpg'
@@ -9,6 +6,11 @@ import Avatar02 from '@/public/images/avatar-02.jpg'
 import Avatar03 from '@/public/images/avatar-03.jpg'
 import Avatar04 from '@/public/images/avatar-04.jpg'
 import { useState, ChangeEvent, FormEvent } from 'react'
+
+export const metadata = {
+  title: 'Sign Up - Kat Gov',
+  description: 'Test out Kat Gov for your community',
+}
 
 export default function SignUp() {
   const [formData, setFormData] = useState({
