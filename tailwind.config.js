@@ -1,22 +1,40 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{js,ts,jsx,tsx}",
+    './app/**/*.{js,ts,jsx,tsx}',
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {
-      colors: {
-        primary: '#70C7BA', // RGB: 111, 199, 186; CMYK: 54, 0, 33, 0; Pantone: 570 C
-        secondary: '#49EACB', // RGB: 73, 234, 203; CMYK: 54, 0, 32, 0; Pantone: 333 C
-        neutralBlack: '#231F20', // RGB: 35, 31, 32; CMYK: 0, 0, 0, 90; Pantone: Neutral Black C
-        lightGray: '#B6B6B6', // RGB: 182, 182, 182; CMYK: 0, 0, 0, 29; Pantone: 421 C
-      },
       fontFamily: {
-        header: ['Rubik', 'sans-serif'],
-        subheader: ['Oswald', 'sans-serif'],
-        body: ['Lato', 'sans-serif'],
+        inter: ['var(--font-inter)', 'sans-serif'],
+        'hkgrotesk': ['var(--font-hkgrotesk)', 'sans-serif'],
+      },
+      fontSize: {
+        xs: ['0.75rem', { lineHeight: '1.5' }],
+        sm: ['0.875rem', { lineHeight: '1.5715' }],
+        base: ['1rem', { lineHeight: '1.5', letterSpacing: '-0.017em' }],
+        lg: ['1.125rem', { lineHeight: '1.5', letterSpacing: '-0.017em' }],
+        xl: ['1.25rem', { lineHeight: '1.5', letterSpacing: '-0.017em' }],
+        '2xl': ['1.5rem', { lineHeight: '1.415', letterSpacing: '-0.017em' }],
+        '3xl': ['1.875rem', { lineHeight: '1.333', letterSpacing: '-0.017em' }],
+        '4xl': ['2.25rem', { lineHeight: '1.277', letterSpacing: '-0.017em' }],
+        '5xl': ['3rem', { lineHeight: '1.2', letterSpacing: '-0.017em' }],
+        '6xl': ['3.75rem', { lineHeight: '1', letterSpacing: '-0.017em' }],
+        '7xl': ['5rem', { lineHeight: '1', letterSpacing: '-0.017em' }],
+      },
+      letterSpacing: {
+        tighter: '-0.02em',
+        tight: '-0.01em',
+        normal: '0',
+        wide: '0.01em',
+        wider: '0.02em',
+        widest: '0.4em',
       },
     },
   },
-  plugins: [],
-}
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
+};
