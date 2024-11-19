@@ -58,7 +58,7 @@ export default function Pricing() {
             <div className="flex flex-col justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-3 md:order-none md:text-center mt-6 md:mt-0">
               <div className="font-hkgrotesk text-lg font-bold text-indigo-500 mb-0.5">Organization</div>
               <div>
-                <span className="text-xl font-semibold">$</span><span className="text-2xl font-semibold">{annual ? 'Custom' : 'Custom'}</span><span className="text-sm text-slate-500 font-medium">/mo</span>
+                <span className="text-xl font-semibold"></span><span className="text-2xl font-semibold">{annual ? 'Custom' : 'Custom'}</span><span className="text-sm text-slate-500 font-medium"></span>
               </div>
             </div>
             {/* Usage label */}
