@@ -28,7 +28,7 @@ export default function SignUp() {
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     try {
-      const response = await fetch('/api/proxy', {
+      const response = await fetch('https://katgovform.tng-inc.workers.dev/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
