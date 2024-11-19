@@ -176,3 +176,16 @@
         transform: translate3d(10px, 0, 0) scale(1.2);
     }
 }
+.text-indigo-500 {
+    --tw-text-opacity: 1;
+    color: rgb(111 199 186 / var(--tw-text-opacity, 1)) !important;
+}
+.bg-indigo-500 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(111 199 186 / var(--tw-bg-opacity, 1)) !important;
+}
+.form-switch input[type=checkbox]:checked+label>span:first-child {
+    left: 1.75rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(111 199 186 / var(--tw-bg-opacity, 1)) !important;
+}
