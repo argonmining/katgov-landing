@@ -27,9 +27,8 @@ export default function SignUp() {
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    // Send form data to Zapier webhook
     try {
-      const response = await fetch('https://hooks.zapier.com/hooks/catch/3848885/2rz601z/', {
+      const response = await fetch('/api/proxy', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -38,10 +37,8 @@ export default function SignUp() {
       })
 
       if (response.ok) {
-        // Handle successful submission
         alert('Form submitted successfully!')
       } else {
-        // Handle errors
         alert('Failed to submit form.')
       }
     } catch (error) {
