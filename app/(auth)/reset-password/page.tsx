@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Reset Password - Cube',
+  title: 'Reset Password - Kat Gov',
   description: 'Page description',
 }
 
