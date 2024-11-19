@@ -13,26 +13,23 @@ export default function Faqs() {
             <div className="w-full md:w-1/2 space-y-8">
               {/* Item */}
               <div className="space-y-2">
-                <h4 className="text-xl font-hkgrotesk font-medium">What is the difference between the Free and Paid versions?</h4>
+                <h4 className="text-xl font-hkgrotesk font-medium">What is the difference between the versions?</h4>
                 <p className="text-slate-500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim
-                  ad minim veniam.
+                The Open Source version is self-hosted and ideal for technical teams. The Hosted version provides a turn-key solution with hosting, regular updates, and dedicated support for a seamless experience.
                 </p>
               </div>
               {/* Item */}
               <div className="space-y-2">
-                <h4 className="text-xl font-hkgrotesk font-medium">Do you have student or non-profit discounts?</h4>
+                <h4 className="text-xl font-hkgrotesk font-medium">Who is Kat Gov designed for?</h4>
                 <p className="text-slate-500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim
-                  ad minim veniam.
+                Kat Gov is built for Community Projects and DAOs, offering scalable governance tools to meet the unique needs of both smaller and larger organizations.
                 </p>
               </div>
               {/* Item */}
               <div className="space-y-2">
-                <h4 className="text-xl font-hkgrotesk font-medium">How is the price determined?</h4>
+                <h4 className="text-xl font-hkgrotesk font-medium">Do I need technical expertise to use Kat Gov?</h4>
                 <p className="text-slate-500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim
-                  ad minim veniam.
+                Not with the Hosted version! We manage hosting, updates, and maintenance so you can focus on growth. Self-hosting the Open Source version does require technical skills.
                 </p>
               </div>
             </div>
@@ -40,26 +37,23 @@ export default function Faqs() {
             <div className="w-full md:w-1/2 space-y-8">
               {/* Item */}
               <div className="space-y-2">
-                <h4 className="text-xl font-hkgrotesk font-medium">Do I need coding knowledge to use this product?</h4>
+                <h4 className="text-xl font-hkgrotesk font-medium">Do you offer any discounts</h4>
                 <p className="text-slate-500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim
-                  ad minim veniam.
+                Yes, we offer annual discounts to Hosted version customers, helping you save on governance tools while enjoying long-term support for your organization.
                 </p>
               </div>
               {/* Item */}
               <div className="space-y-2">
-                <h4 className="text-xl font-hkgrotesk font-medium">Is there a way to become an Affiliate reseller?</h4>
+                <h4 className="text-xl font-hkgrotesk font-medium">How is pricing determined?</h4>
                 <p className="text-slate-500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim
-                  ad minim veniam.
+                Pricing is based on whether you're a Community Project or a DAO, ensuring plans are tailored to meet your structure, scale, and governance requirements.
                 </p>
               </div>
               {/* Item */}
               <div className="space-y-2">
                 <h4 className="text-xl font-hkgrotesk font-medium">What forms of payment do you accept?</h4>
                 <p className="text-slate-500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim
-                  ad minim veniam.
+                We exclusively accept payments in $NACHO and $KAS, reinforcing our commitment to the Kaspa ecosystem and decentralization principles.
                 </p>
               </div>
             </div>

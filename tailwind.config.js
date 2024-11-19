@@ -32,6 +32,12 @@ module.exports = {
         wider: '0.02em',
         widest: '0.4em',
       },
+      colors: {
+        primary: '#70C7BA',
+        secondary: '#49EACB',
+        dark: '#231F20',
+        gray: '#B6B6B6',
+      },
     },
   },
   plugins: [

@@ -24,7 +24,7 @@ export default function Features02() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-hkgrotesk">Features to help you create your best designs</h2>
+            <h2 className="h2 font-hkgrotesk">Govern with the community, for the community</h2>
           </div>
           {/* Box */}
           <div className="bg-slate-800 bg-opacity-60 rounded overflow-hidden">
@@ -38,45 +38,42 @@ export default function Features02() {
                         }`}
                       onClick={() => setCategory('1')}
                     >
-                      Everyone
+                      Memecoins
                     </button>
                     <button
                       className={`btn-sm px-3 py-1 shadow-sm rounded-full m-1.5 ${category === '2' ? 'text-white bg-indigo-500' : 'text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600'
                         }`}
                       onClick={() => setCategory('2')}
                     >
-                      Freelancers
+                      Utility Tokens
                     </button>
                     <button
                       className={`btn-sm px-3 py-1 shadow-sm rounded-full m-1.5 ${category === '3' ? 'text-white bg-indigo-500' : 'text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600'
                         }`}
                       onClick={() => setCategory('3')}
                     >
-                      Organizations
+                      Decentralized Orgs
                     </button>
                   </div>
                 </div>
                 {/* Content */}
                 <div>
                   <div className={`${category !== '1' && 'hidden'}`}>
-                    <h3 className="h3 font-hkgrotesk mb-2">Kickstart your project with these tools</h3>
+                    <h3 className="h3 font-hkgrotesk mb-2">Add true utility functions to your meme token</h3>
                     <div className="text-lg text-slate-500">
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, excepteur sint occaecat
-                      cupidatat non proident, sunt in culpa qui officia deserunt laborum.
+                      Transform your meme token into a community-powered asset with governance tools that engage holders, drive meaningful decisions, and create lasting value for your community.
                     </div>
                   </div>
                   <div className={`${category !== '2' && 'hidden'}`}>
-                    <h3 className="h3 font-hkgrotesk mb-2">Tech tools to kickstart freelance life</h3>
+                    <h3 className="h3 font-hkgrotesk mb-2">Empower your community to help build it's future</h3>
                     <div className="text-lg text-slate-500">
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, excepteur sint occaecat
-                      cupidatat non proident, sunt in culpa qui officia deserunt laborum.
+                      Enable token holders to actively shape your project's future with governance features that promote accountability, collaboration, and innovation.
                     </div>
                   </div>
                   <div className={`${category !== '3' && 'hidden'}`}>
-                    <h3 className="h3 font-hkgrotesk mb-2">Share your plan and clarify project risk</h3>
+                    <h3 className="h3 font-hkgrotesk mb-2">Publicly build a transparent organization that can scale</h3>
                     <div className="text-lg text-slate-500">
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, excepteur sint occaecat
-                      cupidatat non proident, sunt in culpa qui officia deserunt laborum.
+                      Scale your organization with open governance tools that enhance transparency, encourage collaboration, and empower every member to contribute.
                     </div>
                   </div>
                 </div>

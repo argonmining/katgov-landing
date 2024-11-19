@@ -18,7 +18,7 @@ export default function Cta() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20" data-aos="fade-up">
-            <h2 className="h2 font-hkgrotesk">Join the most flexible user-centric platform for teams</h2>
+            <h2 className="h2 font-hkgrotesk">Let transparency take your community to the next level</h2>
           </div>
           {/* Buttons */}
           <div className="text-center">
@@ -26,14 +26,11 @@ export default function Cta() {
               <div data-aos="fade-up" data-aos-delay="100">
                 <Link className="btn text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group" href="/signup">
                   Get Started Free{' '}
-                  <span className="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                    -&gt;
-                  </span>
                 </Link>
               </div>
               <div data-aos="fade-up" data-aos-delay="200">
-                <a className="btn text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600 w-full shadow-sm" href="#0">
-                  Read Docs
+                <a className="btn text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600 w-full shadow-sm" href="https://github.com/argonmining/kat-gov">
+                  Open Source Code
                 </a>
               </div>
             </div>

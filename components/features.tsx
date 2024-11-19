@@ -53,10 +53,10 @@ export default function Features() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-hkgrotesk mb-4">Many tools to express your creativity</h2>
+            <h2 className="h2 font-hkgrotesk mb-4">Features that drive transparency</h2>
             <div className="max-w-2xl mx-auto">
               <p className="text-xl text-slate-500">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.
+                Discover essential features designed to empower communities with consistent, accountable, and open governance solutions.
               </p>
             </div>
           </div>
@@ -68,61 +68,37 @@ export default function Features() {
               <div className="swiper-slide h-auto flex flex-col bg-slate-800 p-6 rounded">
                 <Image className="mb-3" src={FeaturesIcon01} width={56} height={56} alt="Icon 01" />
                 <div className="grow">
-                  <div className="font-hkgrotesk font-bold text-xl">Collaboration</div>
+                  <div className="font-hkgrotesk font-bold text-xl">Proposal & Voting</div>
                   <div className="text-slate-500 mb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+                    Enable your community to propose and vote on key decisions, ensuring every voice is heard and governance is truly collaborative.
                   </div>
-                </div>
-                <div className="text-right">
-                  <a className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group" href="#0">
-                    Learn More{' '}
-                    <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-                  </a>
                 </div>
               </div>
               <div className="swiper-slide h-auto flex flex-col bg-slate-800 p-6 rounded">
                 <Image className="mb-3" src={FeaturesIcon02} width={56} height={56} alt="Icon 02" />
                 <div className="grow">
-                  <div className="font-hkgrotesk font-bold text-xl">Experiences</div>
+                  <div className="font-hkgrotesk font-bold text-xl">Elections & Nominations</div>
                   <div className="text-slate-500 mb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+                    Run transparent elections to nominate and elect leaders or representatives, fostering accountability and trust within your organization.
                   </div>
-                </div>
-                <div className="text-right">
-                  <a className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group" href="#0">
-                    Learn More{' '}
-                    <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-                  </a>
                 </div>
               </div>
               <div className="swiper-slide h-auto flex flex-col bg-slate-800 p-6 rounded">
                 <Image className="mb-3" src={FeaturesIcon03} width={56} height={56} alt="Icon 03" />
                 <div className="grow">
-                  <div className="font-hkgrotesk font-bold text-xl">Animation</div>
+                  <div className="font-hkgrotesk font-bold text-xl">Treasury Management</div>
                   <div className="text-slate-500 mb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+                    Manage community funds with transparency and efficiency, ensuring collective resources are allocated responsibly and securely.
                   </div>
-                </div>
-                <div className="text-right">
-                  <a className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group" href="#0">
-                    Learn More{' '}
-                    <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-                  </a>
                 </div>
               </div>
               <div className="swiper-slide h-auto flex flex-col bg-slate-800 p-6 rounded">
                 <Image className="mb-3" src={FeaturesIcon04} width={56} height={56} alt="Icon 04" />
                 <div className="grow">
-                  <div className="font-hkgrotesk font-bold text-xl">Modeling</div>
+                  <div className="font-hkgrotesk font-bold text-xl">DAO Management</div>
                   <div className="text-slate-500 mb-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+                    Streamline DAO creation and management with tools that ensure transparency, accountability, and collaborative decision-making.
                   </div>
-                </div>
-                <div className="text-right">
-                  <a className="font-medium text-indigo-500 inline-flex items-center transition duration-150 ease-in-out group" href="#0">
-                    Learn More{' '}
-                    <span className="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-                  </a>
                 </div>
               </div>
             </div>

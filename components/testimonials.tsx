@@ -53,9 +53,6 @@ export default function Testimonials() {
               <div className="grow mb-3">
                 <p className="text-slate-500 italic">"The only tool that has the technology to meet our unique and complex needs."</p>
               </div>
-              <footer className="text-sm text-slate-500 font-medium">
-                <a className="text-slate-300 hover:text-white transition duration-150 ease-in-out" href="#0">Trustpilot</a> - <span className="text-indigo-500">4.9/5</span>
-              </footer>
             </article>
             {/* 2nd Testimonial */}
             <article className="h-full flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="200">
@@ -100,9 +97,6 @@ export default function Testimonials() {
               <div className="grow mb-3">
                 <p className="text-slate-500 italic">"The only tool that has the technology to meet our unique and complex needs."</p>
               </div>
-              <footer className="text-sm text-slate-500 font-medium">
-                <a className="text-slate-300 hover:text-white transition duration-150 ease-in-out" href="#0">Capterra</a> - <span className="text-indigo-500">4.7/5</span>
-              </footer>
             </article>
             {/* 3rd Testimonial */}
             <article className="h-full flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="400">
@@ -147,9 +141,6 @@ export default function Testimonials() {
               <div className="grow mb-3">
                 <p className="text-slate-500 italic">"The only tool that has the technology to meet our unique and complex needs."</p>
               </div>
-              <footer className="text-sm text-slate-500 font-medium">
-                <a className="text-slate-300 hover:text-white transition duration-150 ease-in-out" href="#0">G2</a> - <span className="text-indigo-500">4.9/5</span>
-              </footer>
             </article>
           </div>
         </div>

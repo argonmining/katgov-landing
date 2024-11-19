@@ -48,26 +48,26 @@ export default function SignUp() {
               />
             </div>
             {/* Headline */}
-            <h1 className="h2 font-hkgrotesk mb-8 text-center lg:text-left">Get a taste of the user-centric platform</h1>
+            <h1 className="h2 font-hkgrotesk mb-8 text-center lg:text-left">Test out Kat Gov for your community</h1>
             {/* List */}
             <ul className="inline-flex flex-col text-lg text-slate-500 space-y-3">
               <li className="flex items-center">
                 <svg className="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                   <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                 </svg>
-                <span>Excepteur sint occaecat cupidatat non proident sunt in culpa.</span>
+                <span>Unlimited access to all features for 30 days for free.</span>
               </li>
               <li className="flex items-center">
                 <svg className="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                   <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                 </svg>
-                <span>Duis aute irure dolor in reprehenderit in voluptate.</span>
+                <span>Structure a governance model that works for your project.</span>
               </li>
               <li className="flex items-center">
                 <svg className="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                   <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                 </svg>
-                <span>Eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                <span>Custom branding so you can use Kat Gov as your own.</span>
               </li>
             </ul>
           </div>
@@ -76,7 +76,7 @@ export default function SignUp() {
             {/* Bg gradient */}
             <div className="absolute inset-0 opacity-40 bg-gradient-to-t from-transparent to-slate-800 -z-10" aria-hidden="true" />
             <div className="p-6 md:p-8">
-              <div className="font-hkgrotesk text-xl font-bold mb-6">Let's talk</div>
+              <div className="font-hkgrotesk text-xl font-bold mb-6">Let's chat</div>
               {/* Form */}
               <form>
                 <div className="space-y-4">
@@ -126,9 +126,6 @@ export default function SignUp() {
                 <div className="mt-6">
                   <button className="btn-sm text-sm text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group">
                     Request Demo{' '}
-                    <span className="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                      -&gt;
-                    </span>
                   </button>
                 </div>
               </form>

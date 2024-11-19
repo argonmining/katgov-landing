@@ -25,9 +25,6 @@ export default function ResetPassword() {
             <div className="mt-6">
               <button className="btn-sm text-sm text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group">
                 Reset Password{' '}
-                <span className="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                  -&gt;
-                </span>
               </button>
             </div>
           </form>

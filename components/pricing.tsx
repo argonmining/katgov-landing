@@ -17,9 +17,9 @@ export default function Pricing() {
         <div className="pt-10 pb-12 md:pb-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-hkgrotesk mb-4">Let's find the right plan for you business</h2>
+            <h2 className="h2 font-hkgrotesk mb-4">Find the right deployment option for your project</h2>
             <p className="text-xl text-slate-500">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.
+              Open source, flexible, and transparent options to suit communities of all sizes, empowering governance at every level.
             </p>
           </div>
           {/* Pricing tables */}
@@ -42,23 +42,23 @@ export default function Pricing() {
             </div>
             {/* Starter price */}
             <div className="flex flex-col justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-1 md:order-none md:text-center mt-6 md:mt-0">
-              <div className="font-hkgrotesk text-lg font-bold text-indigo-500 mb-0.5">Starter</div>
+              <div className="font-hkgrotesk text-lg font-bold text-indigo-500 mb-0.5">Self Hosted</div>
               <div>
-                <span className="text-xl font-semibold">$</span><span className="text-2xl font-semibold">{annual ? '29' : '35'}</span><span className="text-sm text-slate-500 font-medium">/mo</span>
+                <span className="text-xl font-semibold"></span><span className="text-2xl font-semibold">{annual ? 'Free' : 'Free'}</span><span className="text-sm text-slate-500 font-medium"></span>
               </div>
             </div>
             {/* Agency price */}
             <div className="flex flex-col justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-2 md:order-none md:text-center mt-6 md:mt-0">
-              <div className="font-hkgrotesk text-lg font-bold text-indigo-500 mb-0.5">Agency</div>
+              <div className="font-hkgrotesk text-lg font-bold text-indigo-500 mb-0.5">Community</div>
               <div>
-                <span className="text-xl font-semibold">$</span><span className="text-2xl font-semibold">{annual ? '49' : '55'}</span><span className="text-sm text-slate-500 font-medium">/mo</span>
+                <span className="text-xl font-semibold">$</span><span className="text-2xl font-semibold">{annual ? '80' : '100'}</span><span className="text-sm text-slate-500 font-medium">/mo</span>
               </div>
             </div>
             {/* Team price */}
             <div className="flex flex-col justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-3 md:order-none md:text-center mt-6 md:mt-0">
-              <div className="font-hkgrotesk text-lg font-bold text-indigo-500 mb-0.5">Team</div>
+              <div className="font-hkgrotesk text-lg font-bold text-indigo-500 mb-0.5">Organization</div>
               <div>
-                <span className="text-xl font-semibold">$</span><span className="text-2xl font-semibold">{annual ? '79' : '85'}</span><span className="text-sm text-slate-500 font-medium">/mo</span>
+                <span className="text-xl font-semibold">$</span><span className="text-2xl font-semibold">{annual ? '120' : '150'}</span><span className="text-sm text-slate-500 font-medium">/mo</span>
               </div>
             </div>
             {/* Usage label */}
@@ -80,43 +80,43 @@ export default function Pricing() {
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-1 md:order-none">
               <div className="md:hidden text-slate-200">Admins &amp; Members</div>
-              <div className="text-sm font-medium text-slate-200 text-center">4</div>
+              <div className="text-sm font-medium text-slate-200 text-center"></div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-2 md:order-none">
               <div className="md:hidden text-slate-200">Admins &amp; Members</div>
-              <div className="text-sm font-medium text-slate-200 text-center">12</div>
+              <div className="text-sm font-medium text-slate-200 text-center">Unlimited</div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-3 md:order-none">
               <div className="md:hidden text-slate-200">Admins &amp; Members</div>
               <div className="text-sm font-medium text-slate-200 text-center">Unlimited</div>
             </div>
-            {/* File Storage */}
+            {/* Proposal & Elections */}
             <div className="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-800 bg-opacity-70 md:col-span-3">
-              <div className="text-slate-200">File Storage</div>
+              <div className="text-slate-200">Proposals &amp; Elections</div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 bg-opacity-70 md:border-l border-slate-700 order-1 md:order-none">
-              <div className="md:hidden text-slate-200">File Storage</div>
-              <div className="text-sm font-medium text-slate-200 text-center">10GB</div>
+              <div className="md:hidden text-slate-200">Proposals &amp; Elections</div>
+              <div className="text-sm font-medium text-slate-200 text-center"></div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 bg-opacity-70 md:border-l border-slate-700 order-2 md:order-none">
-              <div className="md:hidden text-slate-200">File Storage</div>
-              <div className="text-sm font-medium text-slate-200 text-center">50GB</div>
-            </div>
-            <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 bg-opacity-70 md:border-l border-slate-700 order-3 md:order-none">
-              <div className="md:hidden text-slate-200">File Storage</div>
+              <div className="md:hidden text-slate-200">Proposals &amp; Elections</div>
               <div className="text-sm font-medium text-slate-200 text-center">Unlimited</div>
             </div>
-            {/* Active Users */}
+            <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 bg-opacity-70 md:border-l border-slate-700 order-3 md:order-none">
+              <div className="md:hidden text-slate-200">Proposals &amp; Elections</div>
+              <div className="text-sm font-medium text-slate-200 text-center">Unlimited</div>
+            </div>
+            {/* Treasury Wallets */}
             <div className="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-800 md:col-span-3">
-              <div className="text-slate-200">Active Users</div>
+              <div className="text-slate-200">Treasury Wallets</div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-1 md:order-none">
-              <div className="md:hidden text-slate-200">Active Users</div>
-              <div className="text-sm font-medium text-slate-200 text-center">500</div>
+              <div className="md:hidden text-slate-200">Treasury Wallets</div>
+              <div className="text-sm font-medium text-slate-200 text-center"></div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-2 md:order-none">
-              <div className="md:hidden text-slate-200">Active Users</div>
-              <div className="text-sm font-medium text-slate-200 text-center">1500</div>
+              <div className="md:hidden text-slate-200">Treasury Wallets</div>
+              <div className="text-sm font-medium text-slate-200 text-center">5</div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-3 md:order-none">
               <div className="md:hidden text-slate-200">Active Users</div>
@@ -135,12 +135,12 @@ export default function Pricing() {
             <div className="flex flex-col justify-center px-4 md:px-6 py-2 bg-slate-700 bg-opacity-25 md:border-l border-slate-700 order-3 md:order-none">
               <span className="md:hidden text-xs uppercase font-semibold text-slate-500">Features</span>
             </div>
-            {/* Unlimited Activities */}
+            {/* Custom Framework */}
             <div className="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-800 md:col-span-3">
-              <div className="text-slate-200">Unlimited Activities</div>
+              <div className="text-slate-200">Custom Framework</div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-1 md:order-none">
-              <div className="md:hidden text-slate-200">Unlimited Activities</div>
+              <div className="md:hidden text-slate-200">Custom Framework</div>
               <div className="text-sm font-medium text-slate-200 text-center">
                 <svg className="inline-flex fill-emerald-400" width="12" height="9" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -152,19 +152,15 @@ export default function Pricing() {
               </div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-2 md:order-none">
-              <div className="md:hidden text-slate-200">Unlimited Activities</div>
+              <div className="md:hidden text-slate-200">Custom Framework</div>
               <div className="text-sm font-medium text-slate-200 text-center">
-                <svg className="inline-flex fill-emerald-400" width="12" height="9" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                    fill="#34D399"
-                    fillRule="nonzero"
-                  />
+              <svg className="inline-flex fill-slate-500" width="14" height="2" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14 0v2H0V0z" fillRule="evenodd" />
                 </svg>
               </div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-3 md:order-none">
-              <div className="md:hidden text-slate-200">Unlimited Activities</div>
+              <div className="md:hidden text-slate-200">Custom Framework</div>
               <div className="text-sm font-medium text-slate-200 text-center">
                 <svg className="inline-flex fill-emerald-400" width="12" height="9" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -177,10 +173,10 @@ export default function Pricing() {
             </div>
             {/* Data Export */}
             <div className="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-800 bg-opacity-70 md:col-span-3">
-              <div className="text-slate-200">Data Export</div>
+              <div className="text-slate-200">Administrator Support</div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 bg-opacity-70 md:border-l border-slate-700 order-1 md:order-none">
-              <div className="md:hidden text-slate-200">Data Export</div>
+              <div className="md:hidden text-slate-200">Administrator Support</div>
               <div className="text-sm font-medium text-slate-200 text-center">
                 <svg className="inline-flex fill-slate-500" width="14" height="2" xmlns="http://www.w3.org/2000/svg">
                   <path d="M14 0v2H0V0z" fillRule="evenodd" />
@@ -188,9 +184,9 @@ export default function Pricing() {
               </div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 bg-opacity-70 md:border-l border-slate-700 order-2 md:order-none">
-              <div className="md:hidden text-slate-200">Data Export</div>
+              <div className="md:hidden text-slate-200">Administrator Support</div>
               <div className="text-sm font-medium text-slate-200 text-center">
-                <svg className="inline-flex fill-emerald-400" width="12" height="9" xmlns="http://www.w3.org/2000/svg">
+              <svg className="inline-flex fill-emerald-400" width="12" height="9" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
                     fill="#34D399"
@@ -200,7 +196,7 @@ export default function Pricing() {
               </div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 bg-opacity-70 md:border-l border-slate-700 order-3 md:order-none">
-              <div className="md:hidden text-slate-200">Data Export</div>
+              <div className="md:hidden text-slate-200">Administrator Support</div>
               <div className="text-sm font-medium text-slate-200 text-center">
                 <svg className="inline-flex fill-emerald-400" width="12" height="9" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -211,12 +207,12 @@ export default function Pricing() {
                 </svg>
               </div>
             </div>
-            {/* Adjust Group Sizes */}
+            {/* Guaranteed Uptime */}
             <div className="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-800 md:col-span-3">
-              <div className="text-slate-200">Adjust Group Sizes</div>
+              <div className="text-slate-200">Guaranteed Uptime</div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-1 md:order-none">
-              <div className="md:hidden text-slate-200">Adjust Group Sizes</div>
+              <div className="md:hidden text-slate-200">Guaranteed Uptime</div>
               <div className="text-sm font-medium text-slate-200 text-center">
                 <svg className="inline-flex fill-slate-500" width="14" height="2" xmlns="http://www.w3.org/2000/svg">
                   <path d="M14 0v2H0V0z" fillRule="evenodd" />
@@ -224,19 +220,15 @@ export default function Pricing() {
               </div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-2 md:order-none">
-              <div className="md:hidden text-slate-200">Adjust Group Sizes</div>
+              <div className="md:hidden text-slate-200">Guaranteed Uptime</div>
               <div className="text-sm font-medium text-slate-200 text-center">
-                <svg className="inline-flex fill-emerald-400" width="12" height="9" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                    fill="#34D399"
-                    fillRule="nonzero"
-                  />
+              <svg className="inline-flex fill-slate-500" width="14" height="2" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14 0v2H0V0z" fillRule="evenodd" />
                 </svg>
               </div>
             </div>
             <div className="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-3 md:order-none">
-              <div className="md:hidden text-slate-200">Adjust Group Sizes</div>
+              <div className="md:hidden text-slate-200">Guaranteed Uptime</div>
               <div className="text-sm font-medium text-slate-200 text-center">
                 <svg className="inline-flex fill-emerald-400" width="12" height="9" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -251,26 +243,17 @@ export default function Pricing() {
             <div className="hidden md:flex flex-col justify-center px-4 md:px-6 py-2 bg-slate-700 bg-opacity-25 md:col-span-3" />
             <div className="flex flex-col justify-center p-4 bg-slate-700 bg-opacity-25 md:border-l border-slate-700 order-1 md:order-none">
               <a className="btn-sm text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group whitespace-nowrap" href="#0">
-                Free Trial{' '}
-                <span className="hidden lg:block tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                  -&gt;
-                </span>
+                Get Started{''}
               </a>
             </div>
             <div className="flex flex-col justify-center p-4 bg-slate-700 bg-opacity-25 md:border-l border-slate-700 order-2 md:order-none">
               <a className="btn-sm text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group whitespace-nowrap" href="#0">
-                Free Trial{' '}
-                <span className="hidden lg:block tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                  -&gt;
-                </span>
+                Free Trial{''}
               </a>
             </div>
             <div className="flex flex-col justify-center p-4 bg-slate-700 bg-opacity-25 md:border-l border-slate-700 order-3 md:order-none">
               <a className="btn-sm text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group whitespace-nowrap" href="#0">
-                Free Trial{' '}
-                <span className="hidden lg:block tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                  -&gt;
-                </span>
+                Let's Chat{' '}
               </a>
             </div>
           </div>
